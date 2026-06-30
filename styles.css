@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/coffee-beans-top-view-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    background-color: rgba(122, 122, 122, 0.308);
+    border: 2px solid rgba(165, 161, 161, 0.2);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    backdrop-filter: blur(20px);
+    h1{
+        font-size: 36px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      border: 2px solid;
+      border-radius: 40px;
+      outline: none;
+      font-size: 16px;
+      color: white;
+      padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.remembe label input{
+    accent-color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.remember-forgot a{
+     text-decoration: none;
+     color: rgb(255, 253, 253);
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all .5s;
+}
+
+.register-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
